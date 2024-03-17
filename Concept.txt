@@ -1,0 +1,39 @@
+LiteraList
+
+Overview
+LiteraList is a web application that allows users to manage their personal library of books. Users can search for books, add them to their personal library, rate them, and write their thoughts. The application leverages the Google Books API for book search and MongoDB for data persistence.
+
+Features
+Book Search: Users can search for books by title, author, or ISBN. The search functionality uses the Google Books API.
+
+Personal Library: Users can add books from the search results to their personal library. Each book in the library is displayed with its cover, title, author, a short description, and a link to more information on Google Books.
+
+User Annotations: Users can add their own notes to each book in their library. They can rate the book, write a review, and add tags.
+
+Library Management: Users can organize their library by creating custom categories or shelves (e.g., "Read", "Want to Read", "Favorites").
+
+User Authentication: Users can create their own account and manage their personal library independently.
+
+Technical Stack
+Frontend: HTML, CSS, JavaScript (Consider a framework like React or Vue.js for a more complex app)
+Backend: Node.js with Express.js
+Database: MongoDB
+API: Google Books API
+Development Plan
+Design the UI: Create the user interface for the app, including the search feature, book display, and user annotation form.
+
+Set up the Backend: Set up a Node.js server with Express.js. Implement user authentication and routes for handling book data.
+
+Set up the Database: Create a MongoDB database and define schemas for user and book data.
+
+Implement Book Search: Use the Google Books API to allow users to search for books.
+
+Implement Personal Library: Allow users to add books to their personal library and display them with their details.
+
+Implement User Annotations: Allow users to add ratings, reviews, and tags to their books.
+
+Implement Library Management: Allow users to organize their books into categories or shelves.
+
+Test the App: Ensure all features work as expected.
+
+Deploy the App: Deploy the backend on a suitable hosting platform and the frontend on a static hosting service.
