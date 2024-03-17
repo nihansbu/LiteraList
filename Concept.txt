@@ -15,7 +15,7 @@ Library Management: Users can organize their library by creating custom categori
 User Authentication: Users can create their own account and manage their personal library independently.
 
 Technical Stack
-Frontend: HTML, CSS, JavaScript (Consider a framework like React or Vue.js for a more complex app)
+Frontend: HTML, CSS, JavaScript, React
 Backend: Node.js with Express.js
 Database: MongoDB
 API: Google Books API
